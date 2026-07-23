@@ -6,7 +6,7 @@ import styles from './App.module.css';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Portfolio_Personal">
+    <BrowserRouter basename="/Curriculum-Jonh-Lamus">
       <div className={styles.layout}>
         <Navbar />
         <main className={styles.main}>
