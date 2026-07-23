@@ -5,7 +5,7 @@ import App from './App.tsx'
 
 const navEntry = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
 if (navEntry?.type === 'reload') {
-  window.history.replaceState(null, '', '/Portfolio_Personal/');
+  window.history.replaceState(null, '', '/Curriculum-Jonh-Lamus/');
 }
 
 createRoot(document.getElementById('root')!).render(
